@@ -9,53 +9,53 @@ what is a kata?   (from http://codekata.com/)
 
 >We hope to be able to solve the bowling game challenge in the time allotted which may be an ambitious goal.  Good luck.  here are the rules:
 
-#bowling scores:
-##frame 1
-roll 1:  1
-roll 2:  4
-score:  5
+##bowling game example:
+####frame 1
+>roll 1:  1<br/>
+>roll 2:  4<br/>
+>score:  5
 
-##frame 2
-roll 1:  4
-roll 2:  5
+####frame 2
+>roll 1:  4<br/>
+roll 2:  5<br/>
 score:  14
 
-##frame 3
-roll 1:  6
-roll 2:  4 (spare)
+####frame 3
+>roll 1:  6<br/>
+roll 2:  4 (spare)<br/>
 score:  29
 
-##frame 4
-roll 1:  5
-roll 2:  5 (spare)
+####frame 4
+>roll 1:  5<br/>
+roll 2:  5 (spare)<br/>
 score:  49
 
-##frame 5
-roll 1:  10 (strike)
+####frame 5
+>roll 1:  10 (strike)<br/>
 score:  60
 
-##frame 6
-roll 1: 0
-roll 2: 1
+####frame 6
+>roll 1: 0<br/>
+roll 2: 1<br/>
 score: 61
 
-##frame 7
-roll 1: 7
-roll 2: 3 (spare)
+####frame 7
+>roll 1: 7<br/>
+roll 2: 3 (spare)<br/>
 score: 77
 
-##frame 8
-roll 1: 6
-roll 2: 4 (spare)
+####frame 8
+>roll 1: 6<br/>
+roll 2: 4 (spare)<br/>
 score: 97
 
-##frame 9:
-roll 1: 10 (strike)
+####frame 9:
+>roll 1: 10 (strike)<br/>
 score: 117
 
-##frame 10:
-roll 1: 2
-roll 2: 8 (spare)
+####frame 10:
+>roll 1: 2<br/>
+roll 2: 8 (spare)<br/>
 roll 3: 6
 ###score: 133
 
@@ -83,12 +83,13 @@ score() is called only at the very end of the game.  It returns the total score 
 
 >Once you have a solution built to the above spec, we will run it against the test suite we've put together to validate the exercise and see how it comes out.
 
-Go for it! 
-------------------------
 ###PROGRAMMING NOTES:
 >1. you may assume that all rolls are valid
->>	a. no frames will amount to more than 10 pins
-	b. there will be exactly the correct number of rolls made for the game
-	c. you don't need to account for invalid roll parameters (i.e. negative numbers etc.)
-2. the score method will not be called until all rolls for a game have been made
+	>>a. no frames will amount to more than 10 pins<br/>
+	>>b. there will be exactly the correct number of rolls made for the game<br/>
+	>>c. you don't need to account for invalid roll parameters (i.e. negative numbers etc.)<br/>
+2. the score method will not be called until all rolls for a game have been made<br/>
+3. Work in pairs and use TDD to build your solution.  Our tests are using minitest so it will be easiest if you use that in your work.  
+4. We have supplied the Gemfile that we used to build our solution, this should be all you need to complete the challenge.
 
+Go for it and have fun!
