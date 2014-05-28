@@ -65,6 +65,4 @@ class BowlingGameTest < MiniTest::Unit::TestCase
 
     assert_equal(300, @game.score)
   end
-
-
 end
